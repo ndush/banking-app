@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import {
-  getUser,
-  getTransactions,
-  clearTransactions, 
-} from "../utils/storage";
+import { getUser, getTransactions, clearTransactions } from "../utils/storage";
 import Layout from "../components/Layout";
 
 export default function Dashboard() {
@@ -25,8 +21,6 @@ export default function Dashboard() {
     const allTxs = getTransactions();
     const userTxs = allTxs.filter((t) => t.email === email);
 
-
-   
     setTxs(userTxs);
   };
 
