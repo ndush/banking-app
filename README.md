@@ -1,14 +1,30 @@
-## Target Market: Freelancers in Kenya
+# Payd Banking App Prototype
 
-This app is designed for **freelancers working in Kenya** who earn money through platforms like **Upwork, Fiverr, and Toptal**. These users frequently receive payments in foreign currencies and manage their earnings independently.
+### Name:
+Damaris Muange
 
-### Why Freelancers?
-- They need **quick and reliable access to their balances**
-- They frequently **send and receive payments by email**
-- They benefit from a **simple dashboard with transaction history**
+### 🛠 Track:
+Frontend
 
-### Key Features Tailored to Freelancers
--  Email-based login/signup — no lengthy verification
--  Send & receive money using recipient emails
--  View transaction history by client or service
-- Track and display total balance on dashboard
+###  Target Audience:
+Freelancers in Kenya (e.g. Upwork, Fiverr) — to manage earnings and make local transactions easily.
+
+###  Tech Stack:
+- React
+- Next.js
+- Tailwind CSS
+- localStorage for mock data/state
+
+###  Features:
+- Signup / Login (mocked)
+- Wallet overview (balance, recent transactions)
+- Send / Receive money (mocked)
+- Clear navigation and clean UI
+- State managed via localStorage
+
+###  Setup Instructions:
+```bash
+git clone https://github.com/ndush/banking-app.git
+cd banking-app
+npm install
+npm run dev
